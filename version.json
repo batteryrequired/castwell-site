@@ -1,8 +1,8 @@
 {
- "version": "0.20.0",
+ "version": "0.21.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "b4f4d4dc986811f8b4219ae51ab07118d44fa98e535afc4774fcdeeebc792b3d",
- "size": 11187492,
+ "sha256": "0b51f9b439e0aaae1a65f6c1f38db8dd4d5f66b9fe9571f112d12b149fc10568",
+ "size": 11191686,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Web browser and half screens in Start programs, monitor numbers, viewer count grid and offline fix."
+ "notes": "Backups to Google Drive or any folder (with copies), backups that install themselves, viewer count shows only live platforms."
 }
