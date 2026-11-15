@@ -1,8 +1,8 @@
 {
- "version": "0.21.2",
+ "version": "0.22.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "205f0af408b53db4ac00d421e9392c2510be1d12a9d836b03875bc8eab60c630",
- "size": 11192808,
+ "sha256": "7864a445d2817aec2c18440cb23c9b9b90aca66f802f73924f786881c41e8a9f",
+ "size": 11205405,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Backup fix: files dated before 1980 no longer stop a backup."
+ "notes": "Stream info for every platform, I'm-live message, one queue for alerts and sounds, TikTok key help, viewer count test."
 }
