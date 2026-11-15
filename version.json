@@ -1,8 +1,8 @@
 {
- "version": "0.18.0",
+ "version": "0.19.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "cbaa2e286a12dff03f476b83c9526b74d29c3a1ce83da30a946c149e3bfb59e8",
- "size": 11172923,
+ "sha256": "a75b1ab582376e815cfa49468dc131401f00306f7c0e469e9d68899fdef74a51",
+ "size": 11181718,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "First test release for friends."
+ "notes": "Import from Nox Bot GG, Firebot and Nightbot; viewer count on stream."
 }
