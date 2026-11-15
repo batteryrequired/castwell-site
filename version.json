@@ -1,8 +1,8 @@
 {
- "version": "0.21.0",
+ "version": "0.21.1",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "0b51f9b439e0aaae1a65f6c1f38db8dd4d5f66b9fe9571f112d12b149fc10568",
- "size": 11191686,
+ "sha256": "a0cf9b3d161b5701e420a905f3223599576439b1a8b6bc77941473c6e69953ce",
+ "size": 11192672,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Backups to Google Drive or any folder (with copies), backups that install themselves, viewer count shows only live platforms."
+ "notes": "Overlays in OBS refresh by themselves after you save settings or update Castwell."
 }
