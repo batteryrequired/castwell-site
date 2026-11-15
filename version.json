@@ -1,8 +1,8 @@
 {
- "version": "0.19.0",
+ "version": "0.20.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "a75b1ab582376e815cfa49468dc131401f00306f7c0e469e9d68899fdef74a51",
- "size": 11181718,
+ "sha256": "b4f4d4dc986811f8b4219ae51ab07118d44fa98e535afc4774fcdeeebc792b3d",
+ "size": 11187492,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Import from Nox Bot GG, Firebot and Nightbot; viewer count on stream."
+ "notes": "Web browser and half screens in Start programs, monitor numbers, viewer count grid and offline fix."
 }
