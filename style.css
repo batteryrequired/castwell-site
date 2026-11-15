@@ -20,3 +20,9 @@ h2 { font-size: 21px; margin: 34px 0 8px; }
 .note { color: var(--dim); font-size: 14px; }
 footer { border-top: 1px solid var(--line); color: var(--dim); font-size: 14px; padding: 20px 0 30px; }
 @media (max-width: 520px) { h1 { font-size: 27px; } nav { gap: 12px; font-size: 14px; } }
+.dl { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; background: var(--panel); border: 1px solid var(--line);
+  border-radius: 12px; padding: 18px 20px; margin: 0 0 14px; }
+.dl b { display: block; } .dl small { color: var(--dim); font-size: 14px; display: block; max-width: 460px; }
+.btn { display: inline-block; background: var(--accent); color: #1a0f08; font-weight: 700; padding: 12px 22px; border-radius: 9px;
+  text-decoration: none; font-size: 17px; } .btn:hover { filter: brightness(1.08); }
+ol li { margin: 4px 0; }
