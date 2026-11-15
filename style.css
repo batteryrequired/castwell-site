@@ -7,6 +7,7 @@ header { border-bottom: 1px solid var(--line); background: var(--panel); }
 header .wrap { display: flex; align-items: center; gap: 18px; height: 60px; }
 .logo { font-weight: 800; font-size: 22px; color: var(--text); text-decoration: none; letter-spacing: .4px; }
 .logo span { color: var(--accent); }
+.logo .tk { font-style: normal; font-weight: 500; color: var(--dim); }
 nav { margin-left: auto; display: flex; gap: 16px; font-size: 15px; }
 nav a { color: var(--dim); text-decoration: none; } nav a:hover, nav a.on { color: var(--text); }
 main { padding: 36px 0 60px; }
