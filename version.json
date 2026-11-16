@@ -1,8 +1,8 @@
 {
- "version": "0.24.0",
+ "version": "0.24.1",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "61ac07100caf91929c2cde534425c16d987f7d0fbacdb4eef31115a5aa54a4c9",
- "size": 11223713,
+ "sha256": "6d12d58ddad07650977e5ba6345954677c1affef9fdd0125b817b2208aa69ebd",
+ "size": 11224038,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Gift bombs play the Gift sub alert once per sub, naming who got each one (or one tier alert: 5, 10, 25, 50, 100), with seconds each and a limit per bomb."
+ "notes": "Fix: Show monitor numbers (Launch tab) works again on 64-bit Windows. Plus 0.24.0's gift bombs: one Gift sub alert per sub with who got it, or one tier alert."
 }
