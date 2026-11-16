@@ -1,8 +1,8 @@
 {
- "version": "0.24.1",
+ "version": "0.24.2",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "6d12d58ddad07650977e5ba6345954677c1affef9fdd0125b817b2208aa69ebd",
- "size": 11224038,
+ "sha256": "ebf348b6e75f5800250c704d8613d252acbf589bf079f46e305044a4793b7499",
+ "size": 11224596,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Fix: Show monitor numbers (Launch tab) works again on 64-bit Windows. Plus 0.24.0's gift bombs: one Gift sub alert per sub with who got it, or one tier alert."
+ "notes": "Fixes: Launch no longer moves Castwell Toolkit's own window when placing a new browser window; the I'm-live message uses Twitch's current title and game."
 }
