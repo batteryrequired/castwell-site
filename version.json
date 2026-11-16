@@ -1,8 +1,8 @@
 {
- "version": "0.23.1",
+ "version": "0.24.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "883c2fefbc8f44d36521d5fab6ed3978242d80a901fb3ef9388a5282bcce3a50",
- "size": 11221500,
+ "sha256": "61ac07100caf91929c2cde534425c16d987f7d0fbacdb4eef31115a5aa54a4c9",
+ "size": 11223713,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Fixes: Castwell Toolkit can tell you're live on Twitch again (signed in), YouTube stream info lands on the live broadcast, and streaming to YouTube only counts as going live."
+ "notes": "Gift bombs play the Gift sub alert once per sub, naming who got each one (or one tier alert: 5, 10, 25, 50, 100), with seconds each and a limit per bomb."
 }
