@@ -14,7 +14,7 @@ main { padding: 36px 0 60px; }
 h1 { font-size: 34px; line-height: 1.2; margin: 0 0 10px; }
 h2 { font-size: 21px; margin: 34px 0 8px; }
 .lead { font-size: 19px; color: var(--dim); margin: 0 0 26px; }
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 22px 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(175px, 1fr)); gap: 12px; margin: 22px 0; }
 .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
 .card b { display: block; margin-bottom: 4px; }
 .card small { color: var(--dim); font-size: 14px; }
@@ -27,3 +27,14 @@ footer { border-top: 1px solid var(--line); color: var(--dim); font-size: 14px; 
 .btn { display: inline-block; background: var(--accent); color: #1a0f08; font-weight: 700; padding: 12px 22px; border-radius: 9px;
   text-decoration: none; font-size: 17px; } .btn:hover { filter: brightness(1.08); }
 ol li { margin: 4px 0; }
+.hero-backup { background: linear-gradient(135deg, rgba(255,122,69,.16), rgba(255,178,107,.06)); border: 1px solid rgba(255,122,69,.45);
+  border-radius: 14px; padding: 20px 22px; margin: 30px 0 10px; }
+.hero-backup h2 { margin-top: 0; }
+.hero-backup ol { margin: 8px 0 10px; }
+.tag { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--accent);
+  border: 1px solid rgba(255,122,69,.5); border-radius: 999px; padding: 1px 9px; margin-bottom: 6px; }
+.toc { display: flex; flex-wrap: wrap; gap: 6px 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+  padding: 12px 16px; margin: 18px 0 8px; font-size: 15px; }
+.feat h2 { scroll-margin-top: 16px; border-top: 1px solid var(--line); padding-top: 22px; }
+.feat ul { padding-left: 20px; } .feat li { margin: 5px 0; }
+.feat .why { color: var(--dim); margin: 0 0 6px; }
