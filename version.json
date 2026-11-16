@@ -1,8 +1,8 @@
 {
- "version": "0.23.0",
+ "version": "0.23.1",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "64457138ce06e8592f54375c999e9204afdb4c552d8ef67babc6b0ceb11df52f",
- "size": 11220629,
+ "sha256": "883c2fefbc8f44d36521d5fab6ed3978242d80a901fb3ef9388a5282bcce3a50",
+ "size": 11221500,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "New name Castwell Toolkit, merch shop alerts (Fourthwall, Streamlabs, StreamElements, Shopify), command sounds on their own OBS source, timer groups, repeat step, bigger alerts for bigger amounts, equally loud sounds, VTube Studio in backups, wheel spin length, and a what's-new screen after updates."
+ "notes": "Fixes: Castwell Toolkit can tell you're live on Twitch again (signed in), YouTube stream info lands on the live broadcast, and streaming to YouTube only counts as going live."
 }
