@@ -1,8 +1,8 @@
 {
- "version": "0.22.0",
+ "version": "0.23.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "7864a445d2817aec2c18440cb23c9b9b90aca66f802f73924f786881c41e8a9f",
- "size": 11205405,
+ "sha256": "64457138ce06e8592f54375c999e9204afdb4c552d8ef67babc6b0ceb11df52f",
+ "size": 11220629,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Stream info for every platform, I'm-live message, one queue for alerts and sounds, TikTok key help, viewer count test."
+ "notes": "New name Castwell Toolkit, merch shop alerts (Fourthwall, Streamlabs, StreamElements, Shopify), command sounds on their own OBS source, timer groups, repeat step, bigger alerts for bigger amounts, equally loud sounds, VTube Studio in backups, wheel spin length, and a what's-new screen after updates."
 }
