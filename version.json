@@ -1,8 +1,8 @@
 {
- "version": "0.24.2",
+ "version": "0.25.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "ebf348b6e75f5800250c704d8613d252acbf589bf079f46e305044a4793b7499",
- "size": 11224596,
+ "sha256": "1174a0726e9d28bfa25807039423efd813e35467aa82183b0ba46a4d8645642c",
+ "size": 11249773,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Fixes: Launch no longer moves Castwell Toolkit's own window when placing a new browser window; the I'm-live message uses Twitch's current title and game."
+ "notes": "The Live tab with cards you arrange, import alerts from Streamlabs / StreamElements, gift bombs at full length (and optional turn-taking), send to chat from the OBS dock, an OBS plugins manager, a smarter Start programs, and a Test tab."
 }
