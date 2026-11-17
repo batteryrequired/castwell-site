@@ -13,6 +13,13 @@ sources, and everything runs on your computer.</p>
   <div><b>Free · Windows 10 and 11</b><small>One installer with everything it needs. Start it, and the first start walks you
     through the rest in about three minutes. Version <span id="ver">0.27.0</span> (test release).</small></div>
 </div>
+<div class="dl dl-linux">
+  <a class="btn ghost" href="downloads/Castwell-Toolkit-x86_64.AppImage">Download for Linux (beta)</a>
+  <div><b>Linux · untested beta</b><small>One file (AppImage) for Ubuntu 22.04+ and most other distros - nothing to install.
+    It hasn't been tried on a real Linux streaming PC yet, so expect rough edges and please
+    <a href="https://github.com/batteryrequired/castwell-site/issues">report what you find</a>.
+    <a href="#linux">How to start it, and what's not there yet</a>.</small></div>
+</div>
 <div class="free-note"><b>Free - and always will be.</b> Castwell Toolkit has no paid version and never will. If you paid anyone
   for it, that was a scam: download it free here and ask for your money back. Like it? You can
   <a href="https://www.paypal.biz/batteryrequiredttv" target="_blank" rel="noopener">support it with a PayPal donation</a> - never needed.</div>
@@ -43,6 +50,18 @@ On <b>Edge</b>: open the Chrome Web Store link and click <b>Allow extensions fro
   <small class="note">Stream keys stay out unless you lock them in with a password. Nothing is re-encoded. <a href="features.html#backup">More about backups</a></small>
 </div>
 <p><a href="features.html">See everything Castwell Toolkit does &rarr;</a></p>
+<h2 id="linux">Linux (beta)</h2>
+<p class="note">Untested beta: it runs, but nobody has streamed with it on Linux yet.</p>
+<ol>
+  <li>Download <a href="downloads/Castwell-Toolkit-x86_64.AppImage">the AppImage</a>.</li>
+  <li>Make it runnable: right-click &gt; Properties &gt; <b>Allow executing file as program</b> (or <code>chmod +x Castwell-Toolkit-x86_64.AppImage</code>).</li>
+  <li>Double-click it. The dashboard opens in your browser (as its own window with Chrome, Chromium, Edge or Brave).
+    If nothing happens on Ubuntu, install FUSE once: <code>sudo apt install libfuse2t64</code> (22.04: <code>libfuse2</code>).</li>
+</ol>
+<p class="note">Your settings, sign-ins and added plugins live in <code>~/.local/share/castwell-toolkit</code>. Works with normal
+OBS and the Flatpak one. <b>Not on Linux yet:</b> the icon by the clock, placing windows on monitors, installing OBS plugins
+and OBS updates for you (it links to their page instead). Updates: download the new AppImage and use it instead of the old one.</p>
+
 <h2>Getting started</h2>
 <ol>
   <li>Download and run the installer above (Windows may say "Windows protected your PC" - press <b>More info</b> &gt;

@@ -4,5 +4,12 @@
  "sha256": "48791ea532f25d7c2cd19c55520357c3290d77ea4fc2d68d8268857c4fe1c9e6",
  "size": 11295760,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Your own plugins for Castwell (add from a file or GitHub, switch on/off, remove), a tidier menu in groups with a search box, pin any card to the Live tab, and a new first-time setup that covers the event list, merch, vertical video, start programs and backup."
+ "notes": "Your own plugins for Castwell (add from a file or GitHub, switch on/off, remove), a tidier menu in groups with a search box, pin any card to the Live tab, and a new first-time setup that covers the event list, merch, vertical video, start programs and backup.",
+ "linux": {
+  "version": "0.27.0",
+  "beta": true,
+  "url": "https://batteryrequired.github.io/castwell-site/downloads/Castwell-Toolkit-x86_64.AppImage",
+  "sha256": "7ad393805be5589a38335852cc3e14e18d89b45528e62e46fc713ba4b8ec5eb2",
+  "size": 53311992
+ }
 }

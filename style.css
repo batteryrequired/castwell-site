@@ -44,3 +44,5 @@ ol li { margin: 4px 0; }
 .ptable { border-collapse: collapse; width: 100%; margin: 8px 0 16px; font-size: 14px; }
 .ptable th, .ptable td { text-align: left; vertical-align: top; padding: 6px 10px; border-bottom: 1px solid var(--line, #2f3344); }
 pre { background: rgba(127,127,127,.12); padding: 12px 14px; border-radius: 10px; overflow-x: auto; font-size: 13px; }
+.dl-linux { margin-top: 10px; background: none; }
+.dl-linux .btn.ghost { background: transparent; border: 1px solid var(--line, #2f3344); color: inherit; }
