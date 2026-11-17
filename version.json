@@ -1,8 +1,8 @@
 {
- "version": "0.25.0",
+ "version": "0.26.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "1174a0726e9d28bfa25807039423efd813e35467aa82183b0ba46a4d8645642c",
- "size": 11249773,
+ "sha256": "eae8140e2140507875e1fcc5dd9750989a6b078e9f2b2536b2c6d56e0d9f39dc",
+ "size": 11284334,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "The Live tab with cards you arrange, import alerts from Streamlabs / StreamElements, gift bombs at full length (and optional turn-taking), send to chat from the OBS dock, an OBS plugins manager, a smarter Start programs, and a Test tab."
+ "notes": "Stream quality (the best OBS settings for your PC and every platform, horizontal and vertical), vertical scenes made and linked for you, an Event list overlay, imports for your Streamlabs / StreamElements overlays, WooCommerce and own-website merch alerts, and custom design for the event list and viewer count. Castwell is free - always."
 }
