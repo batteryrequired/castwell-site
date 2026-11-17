@@ -6,12 +6,15 @@
 <main><div class="wrap feat">
 <h1>Everything Castwell Toolkit does</h1>
 <p class="lead">One free app on your own PC for the things streamers usually juggle several tools for. No account, no cloud,
-no AI - it shows up in OBS as browser sources and docks. This page is the full list, as of version <span id="ver">0.25.0</span>.</p>
+no AI - it shows up in OBS as browser sources and docks. This page is the full list, as of version <span id="ver">0.26.0</span>.</p>
+<div class="free-note"><b>Free - and always will be.</b> Castwell Toolkit has no paid version and never will. If you paid anyone
+  for it, that was a scam: download it free here and ask for your money back. Like it? You can
+  <a href="https://www.paypal.com/paypalme/batteryrequired" target="_blank" rel="noopener">support it with a PayPal donation</a> - never needed.</div>
 <div class="toc">
-  <a href="#backup">Backup &amp; restore</a><a href="#live">The Live tab</a><a href="#alerts">Alerts</a><a href="#import">Import from Streamlabs / StreamElements</a>
-  <a href="#chat">Every platform's chat</a><a href="#overlay">On-screen chat</a><a href="#commands">Commands &amp; timers</a>
+  <a href="#backup">Backup &amp; restore</a><a href="#quality">Stream quality</a><a href="#vertical">Vertical scenes</a><a href="#live">The Live tab</a><a href="#alerts">Alerts</a><a href="#import">Import from Streamlabs / StreamElements</a>
+  <a href="#chat">Every platform's chat</a><a href="#overlay">On-screen chat</a><a href="#events">Event list</a><a href="#commands">Commands &amp; timers</a>
   <a href="#music">Music</a><a href="#wheel">Giveaway wheel</a><a href="#raids">Raids &amp; shoutouts</a><a href="#obs">OBS layouts &amp; plugins</a>
-  <a href="#programs">Start programs</a><a href="#setup">Setup &amp; sign-ins</a><a href="#more">Viewer count, merch, multistream</a>
+  <a href="#programs">Start programs</a><a href="#setup">Setup &amp; sign-ins</a><a href="#more">Viewer count, merch, multistream</a><a href="#copy">Small things</a>
   <a href="#test">Test everything</a><a href="#light">Built to be light</a>
 </div>
 
@@ -31,6 +34,32 @@ install the same OBS from it, press <b>Restore</b>.</p>
     is shrunk or re-encoded (4K stays 4K)</li>
   <li><b>Stream keys stay out</b> unless you lock them in with a password; otherwise the restore lists which keys to paste</li>
   <li>An optional backup after every stream (it notices when you go offline), keeping the newest few</li>
+</ul>
+
+<h2 id="quality">Stream quality - the best OBS settings for your PC</h2>
+<p class="why">Picking encoders, sizes and bitrates for several platforms is guesswork. Castwell works it out from your
+own hardware and your own game.</p>
+<ul>
+  <li><b>Scans your PC:</b> your graphics card (its video encoders and how many it can run at once), CPU, memory and
+    upload speed - and <b>measures your game</b> for a minute (CPU, graphics card, video memory) so the settings leave
+    room for it</li>
+  <li><b>Every platform you stream to, within its own limits:</b> Twitch, YouTube (up to 4K), Kick and TikTok -
+    horizontal, vertical or both: Twitch Dual Format through Enhanced Broadcasting, YouTube portrait, TikTok vertical</li>
+  <li><b>As light as possible:</b> platforms that get the same picture share one encoder; recording gets its own
+    quality setting. Every setting says why, and it warns when video memory or upload is tight</li>
+  <li><b>Your OBS stays safe:</b> your OBS profile and scene collection are copied to new ones called "Castwell" and the
+    changes go there - "Back to my old profile" is one click</li>
+  <li><b>While you're live:</b> dropped and lagged frames, "encoding overloaded", and what to change</li>
+</ul>
+
+<h2 id="vertical">Vertical scenes</h2>
+<ul>
+  <li>Installs the free <b>Aitum Vertical</b> plugin for you (a second, vertical canvas in OBS)</li>
+  <li>Makes a vertical copy of <b>every scene</b> with the same sources - change one, both change - in the same order,
+    already placed: stacked (game on top, cam below), full game with the cam in a corner, or everything scaled down.
+    No adding sources one by one; adjust them from there</li>
+  <li><b>Linked:</b> switching a scene in OBS switches the vertical one too - it uses Aitum Vertical's own link, so it
+    works even when Castwell isn't open</li>
 </ul>
 
 <h2 id="live">The Live tab</h2>
@@ -61,7 +90,18 @@ install the same OBS from it, press <b>Restore</b>.</p>
 <ul>
   <li>Paste your alert box (or overlay) link - the same one you'd put in OBS - and your alerts come over: texts, pictures,
     sounds, volume, length, variations and your custom HTML / CSS / JS</li>
-  <li>One <b>Undo</b> puts your old Castwell alerts back. First-time setup offers it too</li>
+  <li>The same link brings your <b>Event List</b>, <b>Chat Box</b> and <b>Viewer Count</b> settings too, and any Streamlabs
+    widget link works</li>
+  <li>One <b>Undo</b> puts your old Castwell settings back. First-time setup offers it too</li>
+</ul>
+
+<h2 id="events">Event list</h2>
+<ul>
+  <li>An overlay with your latest follows, subs, gifts, bits, raids, charity, Super Chats, members, TikTok gifts and merch
+    orders - pick which, how many lines, newest on top or at the bottom, and how long each one stays</li>
+  <li>Font, size, colours, a stripe on each line, box and round corners, platform marks, their message, slide-in</li>
+  <li>Kept across restarts; test events to place it while you're offline</li>
+  <li><b>Your own design:</b> custom HTML, CSS and JavaScript, like Streamlabs</li>
 </ul>
 
 <h2 id="chat">Every platform's chat in one place</h2>
@@ -138,9 +178,18 @@ install the same OBS from it, press <b>Restore</b>.</p>
 
 <h2 id="more">Viewer count, merch, multistream</h2>
 <ul>
-  <li>Viewer count overlay per platform and in total</li>
-  <li>Merch orders from Fourthwall, Streamlabs, StreamElements and Shopify as alerts</li>
+  <li>Viewer count overlay per platform and in total - with your own design (custom HTML, CSS and JavaScript) too</li>
+  <li>Merch orders as alerts from Fourthwall, Shopify, <b>WooCommerce</b>, Streamlabs and StreamElements - or from
+    <b>your own website</b>: any address that lists your orders, with a check that shows the newest order before you save</li>
   <li>Stream to several platforms at once: Castwell installs the free Multiple RTMP Outputs plugin for OBS</li>
+</ul>
+
+<h2 id="copy">Small things that help</h2>
+<ul>
+  <li>A <b>Copy</b> button next to every link you're meant to copy, and pages don't redraw while you're selecting text</li>
+  <li>Test and Import buttons in the same place on every overlay page</li>
+  <li><b>OBS plugins:</b> install from GitHub or a zip, and remove any of them - even ones an installer put in OBS's own
+    folder (a copy is kept)</li>
 </ul>
 
 <h2 id="test">Test everything</h2>
@@ -157,6 +206,6 @@ install the same OBS from it, press <b>Restore</b>.</p>
 </ul>
 <p><a class="btn" href="./#download">Download for Windows</a></p>
 </div></main>
-<footer><div class="wrap">Castwell Toolkit is a free streaming app made by batteryrequired. Questions or problems:
-<a href="https://github.com/batteryrequired/castwell-site/issues">open an issue</a>.</div></footer>
+<footer><div class="wrap">Castwell Toolkit is free, made by batteryrequired - if you paid for it, that was a scam. Questions or problems:
+<a href="https://github.com/batteryrequired/castwell-site/issues">open an issue</a> · <a href="https://www.paypal.com/paypalme/batteryrequired" target="_blank" rel="noopener">Donate with PayPal</a></div></footer>
 </body></html>
