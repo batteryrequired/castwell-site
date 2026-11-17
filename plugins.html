@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Castwell Toolkit - Plugins</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="wrap"><a class="logo" href="./">Cast<span>well</span> <i class="tk">Toolkit</i></a>
+<nav><a href="./">Home</a><a href="features.html">Features</a><a href="plugins.html" class="on">Plugins</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></div></header>
+<main><div class="wrap feat">
+<h1>Make a Castwell plugin</h1>
+<p><a class="btn" href="downloads/castwell-example-plugin.zip">Download the example plugin (.zip)</a></p>
+<p>A plugin adds a feature to Castwell Toolkit: a chat command, an overlay, a connection to another program, a tab of its own. Add one on the <b>Castwell plugins</b> tab (a <code>.py</code> or <code>.zip</code> file, or a GitHub link), or drop it into Castwell's <code>plugins</code> folder. Castwell Toolkit loads plugins when it starts, after its own parts.</p>
+<div class="free-note" style="border-color:rgba(255,200,87,.6);background:rgba(255,200,87,.08)"><b>A plugin is a real program.</b> It can do anything Castwell Toolkit can on your PC. Only add plugins from someone you trust - the Castwell plugins tab shows what a plugin is and where it came from before anything is added.</div>
+<p>A ready-to-copy example (a chat counter with a <code>!mycount</code> command and its own tab) is in <a href="https://github.com/batteryrequired/castwell/tree/main/examples/chat_counter"><code>examples/chat_counter</code></a>, and as a zip on the <a href="downloads/castwell-example-plugin.zip">website</a>.</p>
+<h2>The shortest plugin</h2>
+<pre><code>INFO = {&quot;id&quot;: &quot;hello&quot;, &quot;name&quot;: &quot;Hello&quot;, &quot;version&quot;: &quot;1.0&quot;, &quot;author&quot;: &quot;you&quot;,
+        &quot;description&quot;: &quot;Says hello back when someone types !hello.&quot;}
+
+def setup(app):
+    def on_chat(d):
+        if d[&quot;text&quot;].strip().lower() == &quot;!hello&quot;:
+            app.module(d[&quot;platform&quot;]).say(f&quot;Hello @{d[&#x27;user&#x27;]}!&quot;)
+    app.bus.on(&quot;chat&quot;, on_chat)</code></pre>
+<p>Save it as <code>hello.py</code>, add it on the Castwell plugins tab, press <b>Restart</b>.</p>
+<h2>What a plugin file can have</h2>
+<table class="ptable"><tr><th>Name</th><th>What it is</th></tr><tr><td><code>INFO</code></td><td><code>{"id", "name", "order", "version", "author", "description"}</code> - <code>id</code> must be unique; the rest shows on the plugins tab. <code>order</code> (default 50) is when it starts, after lower numbers</td></tr><tr><td><code>setup(app)</code></td><td>runs once at start - keep <code>app</code> to use later</td></tr><tr><td><code>status()</code></td><td>optional: a light on the Home tab - return <code>{"ok": bool, "label": "...", "detail": "..."}</code></td></tr><tr><td><code>ROUTES</code></td><td>optional: web addresses - <code>{("GET", "/api/myplugin"): fn}</code>, <code>fn(app, query, body)</code> returns <code>(200, {...})</code></td></tr><tr><td><code>TAB</code></td><td>optional: a tab of its own - <code>{"label": "My plugin", "section": "Plugins", "page": "index.html"}</code></td></tr><tr><td>a folder named like the file</td><td>optional: <code>myplugin/web/</code> holds the tab's pages, served at <code>/p/&lt;id&gt;/&lt;file&gt;</code></td></tr></table>
+<p>A plugin's pages are ordinary HTML and JavaScript and talk to its <code>ROUTES</code> with <code>fetch("/api/myplugin")</code>.</p>
+<h2>What <code>app</code> gives you</h2>
+<ul><li><code>app.log(text)</code> - a line in the log (Help &amp; log tab)</li><li><code>app.bus.on(kind, fn)</code> / <code>app.bus.emit(kind, data)</code> - hear and send events (below)</li><li><code>app.module("twitch")</code> - another part: <code>twitch</code>, <code>youtube</code>, <code>kick</code>, <code>tiktok</code> (each has <code>say(text)</code> to post in that chat), <code>obs</code> (<code>request(name, data)</code> sends any <a href="https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md">obs-websocket</a> request), <code>alerts</code>, <code>commands</code>, <code>music</code> and the rest</li><li><code>app.store.read_json(path, default)</code> / <code>app.store.write_json(path, data)</code> and <code>app.store.DATA</code> - keep your settings in <code>app.store.DATA / "myplugin.json"</code></li><li><code>app.store.secret(name)</code> / <code>app.store.save_secret(name, value)</code> - keys and passwords, kept encrypted</li><li><code>app.version</code> - Castwell Toolkit's version</li></ul>
+<h2>Events on the bus</h2>
+<table class="ptable"><tr><th>Kind</th><th>Data</th></tr><tr><td><code>chat</code></td><td><code>user, login, text, platform</code> (twitch / youtube / kick / tiktok), <code>color, mod, sub, vip, broadcaster, msg_id, test</code></td></tr><tr><td><code>alert</code></td><td><code>kind</code> (follow, sub, resub, gift_sub, mass_gift, bits, raid, redeem, hype_begin, hype_level, hype_end, charity, superchat, member, tiktok_gift, merch), <code>user, amount, detail</code> (and <code>message</code> when there is one), <code>platform, test</code></td></tr><tr><td><code>stream</code></td><td><code>online</code> (true when you go live, false when you stop)</td></tr><tr><td><code>raid_in</code></td><td><code>user, login, viewers</code></td></tr></table>
+<p>Your own plugin can <code>emit</code> its own kinds for other plugins to hear.</p>
+<h2>Sharing a plugin</h2>
+<ul><li>One file: share the <code>.py</code>.</li><li>With pages or pictures: zip the <code>.py</code> together with its folder (<code>myplugin.py</code> and <code>myplugin/web/...</code>).</li><li>On GitHub: put them in a repo; people paste its link on the Castwell plugins tab, which takes your newest release's <code>.zip</code> (or the repo itself when there's no release).</li></ul>
+<p>Plugins are switched off by renaming them to start with <code>_</code> (the tab does this for you), and go into Castwell's backup.</p>
+</div></main>
+<footer><div class="wrap">Castwell Toolkit is free, made by batteryrequired - if you paid for it, that was a scam. Questions or problems:
+<a href="https://github.com/batteryrequired/castwell-site/issues">open an issue</a> · <a href="https://www.paypal.biz/batteryrequiredttv" target="_blank" rel="noopener">Donate with PayPal</a></div></footer>
+</body></html>
