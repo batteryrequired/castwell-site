@@ -1,15 +1,15 @@
 {
- "version": "0.28.1",
+ "version": "0.29.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "c4e0e8aa7e4c68b30fd0dbe4df350ae3387594c12f52f2ca7c5b982867377345",
- "size": 11369738,
+ "sha256": "ab994c9bb093b549e6a1934488132f9cde0b5e789170ccce3fbd55cc708c97ce",
+ "size": 11388129,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Lumia Stream lights on the Integrations tab: run your Lumia commands, set a color, switch a Studio scene or go back to default from any command, timer, reward or event.",
+ "notes": "A death counter that watches your game, a Viewers page (viewer cards, entrance sounds, groups, per-viewer and subscriber checks, viewer counters, test as a viewer) and Profiles (switch setups by hand or by Twitch category, share them as a .zip).",
  "linux": {
-  "version": "0.28.1",
+  "version": "0.29.0",
   "beta": true,
   "url": "https://batteryrequired.github.io/castwell-site/downloads/Castwell-Toolkit-x86_64.AppImage",
-  "sha256": "d5f89ecd35e94d6aa33119068a5694ca759c4501dd2eddfcc52ede51fb283519",
-  "size": 53398008
+  "sha256": "d9eaa68f749e4348216b97b452582a2298e7a69f59627109f5f986018c4728af",
+  "size": 53422584
  }
 }
