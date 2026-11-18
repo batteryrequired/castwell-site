@@ -1,15 +1,15 @@
 {
- "version": "0.28.0",
+ "version": "0.28.1",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "7ab139820868b1ac456ab21fd7a728a812ed8e3a3af5d1040b8115bf078a4e0d",
- "size": 11367889,
+ "sha256": "c4e0e8aa7e4c68b30fd0dbe4df350ae3387594c12f52f2ca7c5b982867377345",
+ "size": 11369738,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Loyalty points, chat filters, text-to-speech on its own OBS source, goal bars and a subathon timer, a shoutout player with clips, stream stats with a viewer graph, an Integrations tab (VTube Studio, Discord, web requests), tips, polls, quotes, end credits and keyboard shortcuts. Twitch asks you to sign in once more.",
+ "notes": "Lumia Stream lights on the Integrations tab: run your Lumia commands, set a color, switch a Studio scene or go back to default from any command, timer, reward or event.",
  "linux": {
-  "version": "0.28.0",
+  "version": "0.28.1",
   "beta": true,
   "url": "https://batteryrequired.github.io/castwell-site/downloads/Castwell-Toolkit-x86_64.AppImage",
-  "sha256": "76237632dc13789d39be496b98868b1ae318606fd39a4f53350c5ed9d22bb405",
-  "size": 53393912
+  "sha256": "d5f89ecd35e94d6aa33119068a5694ca759c4501dd2eddfcc52ede51fb283519",
+  "size": 53398008
  }
 }
