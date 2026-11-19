@@ -35,6 +35,10 @@ ol li { margin: 4px 0; }
   border: 1px solid rgba(255,122,69,.5); border-radius: 999px; padding: 1px 9px; margin-bottom: 6px; }
 .toc { display: flex; flex-wrap: wrap; gap: 6px 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
   padding: 12px 16px; margin: 18px 0 8px; font-size: 15px; }
+.toc div { display: grid; grid-template-columns: 170px 1fr; gap: 4px 10px; width: 100%; } .toc div b { color: var(--dim); font-weight: 600; }
+.toc div span { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+@media (max-width: 600px) { .toc div { grid-template-columns: 1fr; margin-bottom: 6px; } header .wrap { flex-wrap: wrap; height: auto; padding-top: 10px; padding-bottom: 10px; gap: 6px 18px; } header nav { flex-wrap: wrap; margin-left: 0; gap: 4px 14px; } }
+.grp { margin: 44px 0 -14px; font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent, #ff7a45); }
 .feat h2 { scroll-margin-top: 16px; border-top: 1px solid var(--line); padding-top: 22px; }
 .feat ul { padding-left: 20px; } .feat li { margin: 5px 0; }
 .feat .why { color: var(--dim); margin: 0 0 6px; }
@@ -46,3 +50,5 @@ ol li { margin: 4px 0; }
 pre { background: rgba(127,127,127,.12); padding: 12px 14px; border-radius: 10px; overflow-x: auto; font-size: 13px; }
 .dl-linux { margin-top: 10px; background: none; }
 .dl-linux .btn.ghost { background: transparent; border: 1px solid var(--line, #2f3344); color: inherit; }
+
+ul.note { margin: 4px 0 18px; padding-left: 20px; } ul.note li { margin: 5px 0; }
