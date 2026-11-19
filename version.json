@@ -4,12 +4,12 @@
  "sha256": "ab994c9bb093b549e6a1934488132f9cde0b5e789170ccce3fbd55cc708c97ce",
  "size": 11388129,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "A death counter that watches your game, a Viewers page (viewer cards, entrance sounds, groups, per-viewer and subscriber checks, viewer counters, test as a viewer) and Profiles (switch setups by hand or by Twitch category, share them as a .zip).",
+ "notes": "Stream Deck (lay out your keys in Castwell, with the free plugin), stopwatches that keep their time between streams, LiveSplit (beta, with auto splits), death counter boxes and patterns (beta) and Add-ons to take out what you don't use.",
  "linux": {
-  "version": "0.29.0",
+  "version": "0.30.0",
   "beta": true,
   "url": "https://batteryrequired.github.io/castwell-site/downloads/Castwell-Toolkit-x86_64.AppImage",
-  "sha256": "d9eaa68f749e4348216b97b452582a2298e7a69f59627109f5f986018c4728af",
-  "size": 53422584
+  "sha256": "a601277d1f3c86c945559bc007a1683fcdc51f1e29478ed6dd8612bd63f111ce",
+  "size": 53459448
  }
 }
