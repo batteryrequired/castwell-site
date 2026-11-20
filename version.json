@@ -1,10 +1,10 @@
 {
- "version": "0.30.0",
+ "version": "0.31.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "6574a86646b72e85359dbf83eb216058644fcec6cadc883171268af014d1ca79",
- "size": 11418994,
+ "sha256": "79788b9df4e526c63f79cc7dca2424427d312d9d6eb7983ae32245dca0929fbf",
+ "size": 11428895,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Stream Deck (lay out your keys in Castwell, with the free plugin), stopwatches that keep their time between streams, LiveSplit (beta, with auto splits), death counter boxes and patterns (beta) and Add-ons to take out what you don't use.",
+ "notes": "Filters on the chat & events dock (new alerts stay lit until you see them), the death counter as its own on-screen source, end credits that run by themselves, Stream Deck multi actions and source / filter keys (update the Stream Deck plugin too), and the chat no longer freezing after a restart.",
  "linux": {
   "version": "0.30.0",
   "beta": true,
