@@ -1,15 +1,15 @@
 {
- "version": "0.34.0",
+ "version": "0.34.1",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "3188fc63edf0e695e43fea4d2a9f9a070edad0d2069ee0a099092d7f96023825",
- "size": 11447615,
+ "sha256": "b521c218f1696ec613df9c7be27e2416f08f49c7414b55216d1fb86bf6294f73",
+ "size": 11447909,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Twitch badges show as their real pictures in Chat & events (your channel's own sub badges too). Fixed: the Advanced shoutout window could stay on screen in OBS after a shoutout.",
+ "notes": "Fixed: a raid could set off its commands twice (a sound playing over itself). Also in 0.34: Twitch badges as their real pictures in Chat & events, and the Advanced shoutout window no longer stays on screen.",
  "linux": {
-  "version": "0.34.0",
+  "version": "0.34.1",
   "beta": true,
   "url": "https://batteryrequired.github.io/castwell-site/downloads/Castwell-Toolkit-x86_64.AppImage",
-  "sha256": "79d589316c83d1be041ff80e5ca06000188e1a2038845479245ba82ff161824f",
+  "sha256": "919a20c6a39851c40b93b23c6b2aba16d43c35bd6fa4d638ccb8e6af259743c8",
   "size": 53496312
  }
 }
