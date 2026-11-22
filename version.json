@@ -1,10 +1,10 @@
 {
- "version": "0.32.1",
+ "version": "0.33.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "79f318e6b1000561b7879b0deee50ad653deb14186e2b851f67afcc92ed39691",
- "size": 11438306,
+ "sha256": "dec562e1c23499980357a2a74063dc1e2a5a7c2abbc18b53a2b202e5723b9438",
+ "size": 11445702,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Shoutout player fixes: the Advanced player's card is no longer cut off with Windows scaling, and its window loads fresh after a restart. (0.32.0: Shoutouts tab, clips from every channel with the Advanced player, never-shout-out list, one Save bar per tab.)",
+ "notes": "RetroAchievements: your unlocks pop up on stream by themselves. Mic warning: the dashboard and docks flash red while your mic is muted in OBS during a stream - pick your mic, add the mic dock in one click. Twitch gets one picture (Enhanced Broadcasting only with Dual Format).",
  "linux": {
   "version": "0.30.0",
   "beta": true,

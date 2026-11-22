@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Castwell Toolkit - Features</title>
-  <meta name="description" content="Everything Castwell Toolkit does: multi-platform chat, alerts and OBS overlays, commands and timers, loyalty points, a Stream Deck plugin, a death counter, LiveSplit, giveaways, Spotify, whole-setup backup, stream quality check and add-ons.">
+  <meta name="description" content="Everything Castwell Toolkit does: multi-platform chat, alerts and OBS overlays, commands and timers, loyalty points, a Stream Deck plugin, a death counter, RetroAchievements pop-ups, LiveSplit, giveaways, Spotify, whole-setup backup, stream quality check and add-ons.">
   <link rel="canonical" href="https://batteryrequired.github.io/castwell-site/features.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Castwell Toolkit - Features">
-  <meta property="og:description" content="Everything Castwell Toolkit does: multi-platform chat, alerts and OBS overlays, commands and timers, loyalty points, a Stream Deck plugin, a death counter, LiveSplit, giveaways, Spotify, whole-setup backup, stream quality check and add-ons.">
+  <meta property="og:description" content="Everything Castwell Toolkit does: multi-platform chat, alerts and OBS overlays, commands and timers, loyalty points, a Stream Deck plugin, a death counter, RetroAchievements pop-ups, LiveSplit, giveaways, Spotify, whole-setup backup, stream quality check and add-ons.">
   <meta property="og:url" content="https://batteryrequired.github.io/castwell-site/features.html">
 <link rel="stylesheet" href="style.css"></head><body>
 <header><div class="wrap"><a class="logo" href="./">Cast<span>well</span> <i class="tk">Toolkit</i></a>
@@ -13,7 +13,7 @@
 <main><div class="wrap feat">
 <h1>Everything Castwell Toolkit does</h1>
 <p class="lead">One free app on your own PC for the things streamers usually juggle several tools for. No account, no cloud,
-no AI - it shows up in OBS as browser sources and docks. This page is the full list, as of version <span id="ver">0.32.1</span>.</p>
+no AI - it shows up in OBS as browser sources and docks. This page is the full list, as of version <span id="ver">0.33.0</span>.</p>
 <div class="free-note"><b>Free - and always will be.</b> Castwell Toolkit has no paid version and never will. If you paid anyone
   for it, that was a scam: download it free here and ask for your money back. Like it? You can
   <a href="https://www.paypal.biz/batteryrequiredttv" target="_blank" rel="noopener">support it with a PayPal donation</a> - never needed.</div>
@@ -22,7 +22,7 @@ no AI - it shows up in OBS as browser sources and docks. This page is the full l
   <div><b>On your stream</b><span><a href="#alerts">Alerts</a><a href="#overlay">On-screen chat</a><a href="#events">Event list</a><a href="#onstream">Goals, stopwatches, text-to-speech</a><a href="#more">Viewer count, merch, multistream</a></span></div>
   <div><b>Chat</b><span><a href="#chat">Every platform's chat</a><a href="#commands">Commands &amp; timers</a><a href="#bot">Points, filters &amp; chat tools</a><a href="#music">Music</a><a href="#wheel">Giveaway wheel</a><a href="#shoutouts">Shoutouts</a><a href="#raids">Raids</a><a href="#viewers">Viewers</a></span></div>
   <div><b>While you're live</b><span><a href="#live">The Live tab</a><a href="#stats">Stream stats</a></span></div>
-  <div><b>Games</b><span><a href="#deaths">Death counter</a><a href="#livesplit">LiveSplit (beta)</a></span></div>
+  <div><b>Games</b><span><a href="#deaths">Death counter</a><a href="#retro">RetroAchievements</a><a href="#livesplit">LiveSplit (beta)</a></span></div>
   <div><b>OBS</b><span><a href="#quality">Stream quality</a><a href="#vertical">Vertical scenes</a><a href="#obs">OBS layouts &amp; plugins</a></span></div>
   <div><b>Your PC &amp; other tools</b><span><a href="#streamdeck">Stream Deck</a><a href="#programs">Start programs</a><a href="#integrations">Integrations</a><a href="#profiles">Profiles</a><a href="#plugins">Add-ons &amp; plugins</a></span></div>
   <div><b>Good to know</b><span><a href="#copy">Small things</a><a href="#light">Built to be light</a></span></div>
@@ -202,6 +202,8 @@ install the same OBS from it, press <b>Restore</b>.</p>
   <li>Your stream info (title, game, tags) at the top, then cards you <b>drag into place and add or remove</b>: scene and OBS
     layouts, alerts (pause, skip, replay), the giveaway wheel, music, chat, sound effects, viewer counts</li>
   <li><b>Raid out</b> card for the end of the stream: who you follow that's live, raid in one click</li>
+  <li><b>Mic warning:</b> the dashboard, the Chat &amp; events dock and a small mic dock flash red while your microphone is
+    muted in OBS during a stream - pick which mic, and the scenes (BRB, starting, ending) where muted is fine</li>
   <li>Plugins can add their own cards</li>
 </ul>
 
@@ -222,6 +224,12 @@ install the same OBS from it, press <b>Restore</b>.</p>
   <li>Beta: watch only part of the screen (a box around "GAME OVER"), patterns - a death that goes the same way counts in any room - and reset the count to 0</li>
 </ul>
 
+<h2 id="retro">RetroAchievements pop-ups</h2>
+<ul>
+  <li>Your unlocks on retroachievements.org pop up on stream by themselves: the badge, the title, what it was for, the points and the game - fading in and out, several take turns</li>
+  <li>Your own look, an optional sound and chat line, hardcore-only if you like, and an "Achievement unlocked" event for your commands - Add to OBS in one click</li>
+</ul>
+
 <h2 id="livesplit">LiveSplit (beta)</h2>
 <ul>
   <li>Start, split, undo, skip, pause and reset your speedrun timer from commands, the Stream Deck or the dashboard - and "Add LiveSplit to OBS for me"</li>
@@ -238,7 +246,8 @@ own hardware and your own game.</p>
     upload speed - and <b>measures your game</b> for a minute (CPU, graphics card, video memory) so the settings leave
     room for it</li>
   <li><b>Every platform you stream to, within its own limits:</b> Twitch, YouTube (up to 4K), Kick and TikTok -
-    horizontal, vertical or both: Twitch Dual Format through Enhanced Broadcasting, YouTube portrait, TikTok vertical</li>
+    horizontal, vertical or both: Twitch Dual Format through Enhanced Broadcasting, YouTube portrait, TikTok vertical.
+    Twitch otherwise gets one picture - it makes the lower qualities itself - and the plan keeps 2 GB of video memory free</li>
   <li><b>As light as possible:</b> platforms that get the same picture share one encoder; recording gets its own
     quality setting. Every setting says why, and it warns when video memory or upload is tight</li>
   <li><b>Your OBS stays safe:</b> your OBS profile and scene collection are copied to new ones called "Castwell" and the
