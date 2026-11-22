@@ -1,15 +1,15 @@
 {
- "version": "0.33.0",
+ "version": "0.34.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "dec562e1c23499980357a2a74063dc1e2a5a7c2abbc18b53a2b202e5723b9438",
- "size": 11445702,
+ "sha256": "3188fc63edf0e695e43fea4d2a9f9a070edad0d2069ee0a099092d7f96023825",
+ "size": 11447615,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "RetroAchievements: your unlocks pop up on stream by themselves. Mic warning: the dashboard and docks flash red while your mic is muted in OBS during a stream - pick your mic, add the mic dock in one click. Twitch gets one picture (Enhanced Broadcasting only with Dual Format).",
+ "notes": "Twitch badges show as their real pictures in Chat & events (your channel's own sub badges too). Fixed: the Advanced shoutout window could stay on screen in OBS after a shoutout.",
  "linux": {
-  "version": "0.30.0",
+  "version": "0.34.0",
   "beta": true,
   "url": "https://batteryrequired.github.io/castwell-site/downloads/Castwell-Toolkit-x86_64.AppImage",
-  "sha256": "a601277d1f3c86c945559bc007a1683fcdc51f1e29478ed6dd8612bd63f111ce",
-  "size": 53459448
+  "sha256": "79d589316c83d1be041ff80e5ca06000188e1a2038845479245ba82ff161824f",
+  "size": 53496312
  }
 }
