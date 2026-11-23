@@ -1,15 +1,15 @@
 {
- "version": "0.36.0",
+ "version": "0.37.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "5e19b89da37a16b154ee3bf35132564ac4d13814cca2fb8d22b145a6692c2473",
- "size": 11462786,
+ "sha256": "d6dcdc30e039ad3fe78d9cdc2b10d2d7031c1c3d2a1589d9e6cd6fc7b235a367",
+ "size": 11464302,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "The Live tab is a grid you arrange: cards stack beside a bigger one and stretch wider, narrower, taller or shorter, snapping to the cards around them. The TikTok extension installs from the Chrome Web Store.",
+ "notes": "Test chat and events clear themselves a minute after your last test, and the \"I'm live\" message goes out once per stream (not again when Castwell Toolkit restarts while you're live).",
  "linux": {
-  "version": "0.36.0",
+  "version": "0.37.0",
   "beta": true,
   "url": "https://batteryrequired.github.io/castwell-site/downloads/Castwell-Toolkit-x86_64.AppImage",
-  "sha256": "ec0fe29e314b5cf848c0039ed8d1aa76f94732666f21d6f953acf6404666afe0",
-  "size": 53516792
+  "sha256": "3f00f1e8c544a68a6eb65dd0fe225fe297e3270fdb9538d71187729e4a68f109",
+  "size": 53520888
  }
 }
