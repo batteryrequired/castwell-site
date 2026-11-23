@@ -1,15 +1,15 @@
 {
- "version": "0.35.0",
+ "version": "0.36.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "076d99bb03c19e381184b58e8338a93df7f9ce9d5e688a5124c65606c41cd258",
- "size": 11458477,
+ "sha256": "5e19b89da37a16b154ee3bf35132564ac4d13814cca2fb8d22b145a6692c2473",
+ "size": 11462786,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "No Stream Deck needed: an on-screen deck on the Live tab with the same keys. Switch from Streamlabs Desktop (beta): your whole Streamlabs setup rebuilt in OBS as a new scene collection, widgets swapped for Castwell's overlays.",
+ "notes": "The Live tab is a grid you arrange: cards stack beside a bigger one and stretch wider, narrower, taller or shorter, snapping to the cards around them. The TikTok extension installs from the Chrome Web Store.",
  "linux": {
-  "version": "0.35.0",
+  "version": "0.36.0",
   "beta": true,
   "url": "https://batteryrequired.github.io/castwell-site/downloads/Castwell-Toolkit-x86_64.AppImage",
-  "sha256": "4cfb9eb9b8cbba3560c613ae2e1500445f6fd5c5fb73ba6c5a2481f7d27c8627",
-  "size": 53512696
+  "sha256": "ec0fe29e314b5cf848c0039ed8d1aa76f94732666f21d6f953acf6404666afe0",
+  "size": 53516792
  }
 }
