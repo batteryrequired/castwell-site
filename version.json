@@ -1,15 +1,15 @@
 {
- "version": "0.37.0",
+ "version": "0.38.0",
  "url": "https://batteryrequired.github.io/castwell-site/downloads/CastwellSetup.exe",
- "sha256": "d6dcdc30e039ad3fe78d9cdc2b10d2d7031c1c3d2a1589d9e6cd6fc7b235a367",
- "size": 11464302,
+ "sha256": "34c0c3cd3f9914c5faf3a2c928566b0a3aa85005075f5c5ca2a205f6d3ae37b1",
+ "size": 11476165,
  "page": "https://batteryrequired.github.io/castwell-site/",
- "notes": "Test chat and events clear themselves a minute after your last test, and the \"I'm live\" message goes out once per stream (not again when Castwell Toolkit restarts while you're live).",
+ "notes": "Facebook live: comments, replies, Stars, follows, shares and reactions (needs the browser extension 1.3). The setup now covers Streamlabs Desktop, shoutouts, the mic warning, Discord, the Stream Deck and your other apps, and multistream takes every platform's stream key.",
  "linux": {
-  "version": "0.37.0",
+  "version": "0.38.0",
   "beta": true,
   "url": "https://batteryrequired.github.io/castwell-site/downloads/Castwell-Toolkit-x86_64.AppImage",
-  "sha256": "3f00f1e8c544a68a6eb65dd0fe225fe297e3270fdb9538d71187729e4a68f109",
-  "size": 53520888
+  "sha256": "88679aa6388df5810dac0f1d87758d4a422fb8254bb39c83b10a05b1922409fe",
+  "size": 53537272
  }
 }
